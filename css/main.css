@@ -1519,4 +1519,32 @@ courses
   
 }
 
-
+.hero-clip {
+  position: absolute;
+  /* width:100vw; */
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 17/9) {
+  .hero-clip {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 17/9) {
+  .hero-clip {
+    width: auto;
+    height: 100%;
+  }
+}
+@media (min-width: 992px) {
+  /* #hero {
+    padding-left: 160px;
+  } */
+}
+@media (max-width: 425px) {
+  .hero-clip {
+    aspect-ratio: 1.74;
+  }
+}
