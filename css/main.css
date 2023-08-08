@@ -1511,7 +1511,12 @@ courses
   margin-bottom:0 ;
 }
 
-
-
+@media (max-width:1000px) {
+  
+.theme svg{
+  display: none; 
+}
+  
+}
 
 
